@@ -96,4 +96,8 @@ const nextConfig = {
 };
 
 
-export default nextConfig;
+export default {nextConfig, 
+                output: 'export',
+                basePath: '/utether',
+                images: {
+                unoptimized: true,};
